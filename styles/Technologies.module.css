@@ -1,0 +1,67 @@
+.body{
+    height: 100vh;
+    background: url('../public/assets/technology/background-technology-desktop.jpg') center/cover no-repeat;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    color:white;
+    position: absolute;
+    bottom: 100px;
+    right: 40px;
+    font-size: 1.3rem;
+    width: 100vw;
+}
+
+.top{
+    grid-column: 1/3;
+    padding-left: 150px;
+}
+
+.right{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.left{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+.small_text{
+    font-weight: 200;
+    opacity: 0.5;
+}
+
+.name{
+    color:orangered;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin:20px 0;
+}
+
+.left_right{
+    width: 70%;
+    margin-left: 3rem;
+}
+
+.circles_container{
+    /* background: red; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.active_number{
+    background: orangered;
+    color:white;
+    cursor: pointer;
+}
+
+.description{
+    height:130px;
+}
